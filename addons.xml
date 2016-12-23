@@ -14,19 +14,26 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.igorlista" name="Igor Lista" version="3.0.0" provider-name="Igor Rangel e Cleiton Leonel Creton">
+<addon id="plugin.video.igorlista" name="[B][COLOR dodgerblue]IGOR LISTA[/COLOR][/B]" version="5.0.0" provider-name="Igor Rangel">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.urlresolver" version="2.10.8"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+	<import addon="script.module.livestreamer" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <language>en</language>
-    <platform>all</platform>
-    <summary lang="en">Curta a minha Lista agora em forma de Add On com mais canais. Os Canais da MASTER TV foram Desenvolvidos por Cleiton Leonel Creton e Rogger Henrique e Filipe Carvalho  </summary>
-    <description lang="en">Curta a minha Lista agora em forma de Add On com mais canais. Os Canais da MASTER TV foram Desenvolvidos por Cleiton Leonel Creton e Rogger Henrique e Filipe Carvalho </description>
+    <summary>Asista Tv Online, Curta Filmes e Series No AddOn Igor Lista </summary>
+    <description lang="en">Asista Tv Online, Curta Filmes e Series No AddOn Igor Lista</description>
     <platform>all</platform>
   </extension>
 </addon>
