@@ -52,7 +52,7 @@ if os.path.exists(favorites)==True:
     FAV = open(favorites).read()
 else: FAV = []
 
-SOURCES = [{"title": "IGOR LISTA", "url": "http://bit.ly/igorlista5_0", "fanart": "xxxxxx", "GENERO": "IPTV ", "date": "09/12/2016", "credits": "Igor Rangel", "thumbnail": "http://goo.gl/vrZ3mg"}]
+SOURCES = [{"title": "IGOR LISTA", "url": "http://bit.ly/igorlista5_0", "fanart": "xxxxxx", "GENERO": "IPTV ", "date": "09/12/2016", "credits": "Igor Rangel", "thumbnail": "http://logos3.ucoz.com/IgorLista_5-0.png"}]
 
 
 

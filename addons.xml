@@ -14,7 +14,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.igorlista" name="[COLOR dodgerblue][B]IGOR LISTA[/B][/COLOR]" version="5.0" provider-name="Igor Rangel">
+<addon id="plugin.video.igorlista" name="[COLOR dodgerblue][B]IGOR LISTA[/B][/COLOR]" version="5.0.0" provider-name="Igor Rangel">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -33,7 +33,7 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>IGOR LISTA</summary>
-    <description lang="en">Assista Tv Online, Curta Filmes e Series Oline no AddOn Igor Lista</description>
+    <description lang="en">Assista Tv Online, Curta Filmes e Series Online no AddOn Igor Lista</description>
     <platform>all</platform>
   </extension>
 </addon>
