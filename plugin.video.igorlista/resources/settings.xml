@@ -1,8 +1,8 @@
 <settings>
   <category label="General">
 
-        <setting type="lsep" label="                                                     Actualización 10/07/2016" option="close" action="RunPlugin(plugin://plugin.video.live.streamspro/?mode=7)" />
-        <setting type="lsep" label="                                                  [B][COLOR white]FREEDOM[COLOR dodgerblue] IPTV[/COLOR][/B] BY MADDOG" option="close" action="RunPlugin(plugin://plugin.video.live.streamspro/?mode=7)" />
+        <setting type="lsep" label="                                                     " option="close" action="RunPlugin(plugin://plugin.video.live.streamspro/?mode=7)" />
+        <setting type="lsep" label="                                                  " option="close" action="RunPlugin(plugin://plugin.video.live.streamspro/?mode=7)" />
         
   
 	    <setting id="Updatecommonresolvers" label="Update Commonresolver from Genesis" type="bool" default="true" visible="false"/>
