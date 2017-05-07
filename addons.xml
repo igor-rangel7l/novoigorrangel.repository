@@ -40,7 +40,7 @@
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2016.09.24"
+  version="2016.09.99"
   name="SportsDevil [COLOR dodgerblue][B](IGOR LISTA)[/B][/COLOR]"
   provider-name="SportsDevil">
   <requires>

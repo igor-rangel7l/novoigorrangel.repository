@@ -623,7 +623,7 @@ class Parser(object):
                 src = cc.decodeXppod_hls(src)
 
             elif command == 'replace':
-                src = cc.replace(params, src)
+                src = cc.replace(item, params, src)
 
             elif command == 'replaceRegex':
                 src = cc.replaceRegex(params, src)
@@ -640,14 +640,14 @@ class Parser(object):
             elif command == 'ifExists':
                 src = cc.ifExists(item, params, src)
 
-            elif command == 'encryptJimey':
-                src = crypt.encryptJimey(params.strip("'").replace('%s', src))
-
             elif command == 'gAesDec':
                 src = crypt.gAesDec(src,item.infos[params])
                 
             elif command == 'cjsAesDec':
                 src = crypt.cjsAesDec(src,item.infos[params])
+                
+            elif command == 'm3u8AesDec':
+                src = crypt.m3u8AesDec(src,item.infos[params])
 
             elif command == 'drenchDec':
                 src = crypt.drenchDec(src,item.infos[params])
@@ -658,14 +658,14 @@ class Parser(object):
             elif command == 'getCookies':
                 src = cc.getCookies(params, src)
 
-            elif command == 'destreamer':
-                src = crypt.destreamer(params.strip("'").replace('%s', src))
-
             elif command == 'unixTimestamp':
                 src = dt.getUnixTimestamp()
                 
             elif command == 'rowbalance':
                 src = rb.get(src)
+                
+            elif command == 'simpleToken':
+                src = cc.simpleToken(src)
 
             elif command == 'urlMerge':
                 src = cc.urlMerge(params, src)
