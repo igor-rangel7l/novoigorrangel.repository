@@ -1,4 +1,4 @@
 import xbmcaddon
 
-MainBase = 'http://bit.ly/igorlista5_0'
+MainBase = 'http://bit.ly/igorlistaN'
 addon = xbmcaddon.Addon('plugin.video.igorlista')
